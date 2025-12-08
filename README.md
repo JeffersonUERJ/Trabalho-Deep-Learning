@@ -32,9 +32,6 @@
 
 - Teste: 15%
 
-**Como obter:**
-bash  bash scripts/download_data.sh
-  # ou descreva o procedimento equivalente
 
 ## 3. Modelo e Treinamento- 
 **Arquitetura:** MLP/Transformer 
@@ -52,10 +49,11 @@ bash  bash scripts/download_data.sh
 - seeds fixas para PyTorch, NumPy e Python
 - PyTorch 2.x + CUDA (quando disponível)
 ### Como rodar
-bash# criar ambienteconda env create -f environment.yml && conda activate <nome># oupip install -r requirements.txt
-# treinarpython src/train.py --config config.yaml
-# avaliarpython src/eval.py --checkpoint path/to/ckpt.pt
-# (opcional) inferência em novos dadospython src/inference.py --input path/to/data.csv --output preds.csv
+
+pip install -r requirements.txt
+
+python train_soja.py --config config.yaml
+
 
 ## 4. Resultados com Transformer Tabular
 
