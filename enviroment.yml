@@ -1,0 +1,17 @@
+name: soja-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pandas
+      - numpy
+      - scikit-learn
+      - tensorflow==2.16.1
+      - pyarrow
+      - joblib
+      - matplotlib
+      - tqdm
+      - pyyaml
+

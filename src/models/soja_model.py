@@ -1,4 +1,4 @@
-# soja_model.py (corrigido e melhorado)
+
 import os
 from typing import List, Dict, Tuple, Optional
 import numpy as np
@@ -63,15 +63,15 @@ def _transformer_encoder_block(x, d_model, head_size=32, num_heads=4, ff_dim=128
 
 
 def build_model(input_dim: int,
-                model_type: str = "transformer",
+                model_type: str = "mlp",
                 d_model: int = 128,
                 num_blocks: int = 3,
                 head_size: int = 64,
                 num_heads: int = 8,
                 ff_dim: int = 128,
-                dropout: float = 0.1,
-                hidden_units: List[int] = (256, 128),
-                lr: float = 5e-4) -> keras.Model:
+                dropout: float = 0.2,
+                hidden_units=[512, 256, 128, 64],
+                lr: float = 3e-4) -> keras.Model:
     """
     Constrói modelo para previsão de exportação de soja.
     

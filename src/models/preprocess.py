@@ -61,7 +61,7 @@ def prepare_dataset(parquet_path: str,
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors="coerce")
 
-    df = remove_extreme_outliers(df, "Valopr US$ FOB", quantile=0.995)
+    df = remove_extreme_outliers(df, "Valor US$ FOB", quantile=0.995)
 
     # drop rows with missing targets (only remove rows missing any existing target)
     for t in target_cols:
