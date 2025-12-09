@@ -103,7 +103,7 @@ Modelos tabulares sofrem muito com isso.
 ## 5. Limitações e Próximos Passos- (curto e objetivo)
 - Dados de comércio exterior apresentam forte assimetria → valores FOB muito altos ainda podem afetar o treinamento.
 
-- Necessário mais dados externos
+- Necessário mais dados externos e de maior impacto. O dataset gerado não consegue oferecer um padrão para o modelo
 
 - Possível melhorar o modelo incorporando:
 
