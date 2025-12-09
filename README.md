@@ -116,8 +116,6 @@ Modelos tabulares sofrem muito com isso.
 
 - Possível melhorar o modelo incorporando:
 
-- modelos híbridos (Deep Learning + PINNs)
-
 - atenção cruzada entre features numéricas e categóricas
 
 - embeddings treináveis para País, NCM e UF
@@ -125,7 +123,9 @@ Modelos tabulares sofrem muito com isso.
 - arquitetura temporal mais profunda
 
 - Criar sistema de previsão contínua (streaming)
-- Explorar melhor técnicas robustas para outliers (Tukey, winsorizing adaptativo)
+
+- Explorar melhor técnicas robustas para outliers
+  
 - Criar um modelo apenas para os outliers
 
 ## 6. Autores- Nome(s), matrícula(s), curso(s)
