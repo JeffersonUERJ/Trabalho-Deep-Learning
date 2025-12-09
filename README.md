@@ -54,6 +54,9 @@ pip install -r requirements.txt
 
 python train_soja.py --config config.yaml
 
+python plot_history.py
+
+python predict.py
 
 ## 4. Resultados com Transformer Tabular
 
