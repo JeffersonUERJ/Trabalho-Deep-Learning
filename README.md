@@ -80,7 +80,12 @@ Esse resultado apresenta um teste feito com a arquitetura transformer, porém. P
 
 ![alt text](image-4.png)
 
-### 4.1 - Análise crítica dos resultados
+
+### 4.1 - Resultado com predict
+
+![alt text](image-5.png)
+
+### 4.2 - Análise crítica dos resultados
 
 Os modelos desenvolvidos (MLP e Transformer Tabular) apresentaram erros relativamente altos — especialmente para o target Valor US$ FOB.
 Isso não indica necessariamente uma falha no modelo, e sim limitações estruturais do dataset de comércio exterior.
