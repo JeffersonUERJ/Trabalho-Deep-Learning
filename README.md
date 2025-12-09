@@ -1,6 +1,6 @@
 # Projeto Final — Deep Learning
 ## 1. Regressão Multivariada
-**Tarefa**: Prever Toneladas movimentadas e Valor US$ FOB a partir de dados de comércio exterior, incluindo características logísticas informações fiscais e alfandegárias distância, tempo estimado, UF, países
+**Tarefa**: Prever Toneladas movimentadas e Valor US$ FOB a partir de dados de comércio exterior, incluindo características logísticas informações fiscais e alfandegárias, distância, tempo estimado, UF, países
 
 **Contexto:** Modelagem de fluxos internacionais e previsão de demanda logística/comercial
 
