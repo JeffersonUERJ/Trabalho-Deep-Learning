@@ -6,7 +6,7 @@
 
 **Métrica(s):** MAE/RMSE/MAPE
 ## 2. Dados 
-**Fonte:** Banco de dados do comércio exterior brasileiro (parquet consolidado gerado pelo aluno).
+**Fonte:** Banco de dados do comércio exterior brasileiro (parquet consolidado gerado).
 
 **Link do Kaggle:** https://www.kaggle.com/datasets/jeffersonkauan/exportao-e-variveis-externas-de-soja
 
